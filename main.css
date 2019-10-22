@@ -1,0 +1,331 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  padding-top: 146px;
+  width: 50%;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+header, .s1, .s5, .s6 {
+  color: white;
+}
+
+.s2, .s3 {
+  color: #3c4761;
+}
+
+header {
+  padding-top: 60px;
+  background-color: #87509c;
+}
+
+header img {
+  padding: 0px 0 0 200px;
+}
+
+header ul {
+  padding: 10px 195px;
+  float: right;
+}
+
+header ul li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px 17px;
+}
+
+header a:active {
+  border-radius: 7px;
+  background-color: #643a79;
+}
+
+header button {
+  margin-top: 62px;
+  padding: 28px 82px;
+  background-color: #eb7d4b;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+header button:active {
+  background-color: #c86a40;
+  text-decoration: none;
+}
+
+.text-header {
+  text-align: center;
+  padding-bottom: 145px;
+}
+
+section {
+  text-align: center;
+  padding-bottom: 130px;
+}
+
+section nav div {
+  margin: 15px 15px 0 15px;
+}
+
+.s1 {
+  background-color: #17c2a4;
+}
+
+.s1 h2 {
+  padding-bottom: 24px;
+}
+
+hr {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  height: 4px;
+  width: 83px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.icons {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons div {
+  width: 270px;
+}
+
+.s2 {
+  background-color: #e7f1f8;
+}
+
+.s2 h2 {
+  padding-bottom: 12px;
+}
+
+.s2 a {
+  padding-top: 20px;
+}
+
+.s2 a:active {
+  background-color: #e7f1f8;
+}
+
+.text-color {
+  color: #30bae7;
+  padding-bottom: 24px;
+}
+
+.contacts_icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.s3 {
+  background-color: #ffffff;
+}
+
+.s1 img, .s2 img, .s3 img {
+  padding-bottom: 30px;
+}
+
+.icons-s4s5 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons-s4s5 div {
+  padding-top: 20px;
+}
+
+.s4 {
+  background-color: #ffdd99;
+}
+
+#buttons {
+  padding-top: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#buttons button {
+  margin: 7px;
+  padding: 12px 27px;
+  background-color: #ebc985;
+  border-radius: 5px;
+}
+
+#buttons button:active {
+  background-color: white;
+}
+
+#bottom-botton-s4 {
+  margin-top: 80px;
+  background-color: #17c2a4;
+  color: white;
+  padding: 30px 60px;
+  border-radius: 5px;
+}
+
+#bottom-botton-s4:active {
+  background-color: #14a58c;
+}
+
+.s5 {
+  background-color: #d74680;
+}
+
+.s5 nav {
+  text-align: left;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.comment-s5 {
+  width: 400px;
+}
+
+.person {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.profession {
+  color: #ffdd99;
+}
+
+.s6 {
+  background-color: #3c5499;
+}
+
+.s6 h3 {
+  padding-bottom: 70px;
+}
+
+#inputs {
+  width: 57.3%;
+}
+
+input {
+  width: 40%;
+  height: 56px;
+  margin: 16px;
+  padding-left: 25px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #273a71;
+  color: white;
+  font-size: 14px;
+}
+
+textarea {
+  display: block;
+  width: 84%;
+  height: 200px;
+  padding: 25px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #273a71;
+  color: white;
+  font-size: 14px;
+}
+
+.s6 button {
+  margin-top: 50px;
+  padding: 28px 85px;
+  border-radius: 5px;
+  color: white;
+  background-color: #30bae7;
+}
+
+.s6 button:active {
+  background-color: #299ec5;
+}
+
+footer {
+  background-color: #344b8e;
+  font-weight: 700;
+}
+
+textarea::-webkit-input-placeholder { 
+  color: white; 
+}
+
+input::-webkit-input-placeholder { 
+  color: white; 
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0;
+  padding: 48px 28px;
+}
+
+footer a:active {
+  color: #30bae7;
+}
