@@ -334,9 +334,37 @@ footer a:active {
   color: #30bae7;
 }
 
+@media screen and (max-width: 1033px) {
+  h1 {
+    font-size: 34px;
+    width: 65%;
+  }
+
+  h3 {
+    width: 95%;
+  }
+  
+  #inputs {
+    text-align: center;
+    width: 100%;
+  }
+  
+  input {
+    width: 84%;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    margin: auto;
+    width: 80.5%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 26px;
+    width: 75%;
   }
 
   h2 {
@@ -348,3 +376,4 @@ footer a:active {
     width: 100%;
   }
 }
+
