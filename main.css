@@ -54,6 +54,10 @@ header, .s1, .s5, .s6 {
   color: #3c4761;
 }
 
+.s1 img, .s2 img, .s3 img {
+  padding-bottom: 30px;
+}
+
 header {
   padding-top: 60px;
   background-color: #87509c;
@@ -172,8 +176,8 @@ hr {
   background-color: #ffffff;
 }
 
-.s1 img, .s2 img, .s3 img {
-  padding-bottom: 30px;
+.flexible-image {
+  width: 100%;
 }
 
 .icons-s4s5 {
