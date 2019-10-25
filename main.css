@@ -94,7 +94,7 @@ header ul li a:active {
   float: right;
   width: 40px;
   height: 40px;
-  background: white;
+  background: #643a79;
   margin-right: 9.7%;
   border-radius: 50px;
   position: relative;
@@ -106,7 +106,7 @@ header ul li a:active {
   display: block;
   width: 20px;
   height: 2px;
-  background: #222222;
+  background: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -367,11 +367,13 @@ footer ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 footer ul li {
   margin: 0;
-  padding: 48px 28px;
+  padding: 20px 28px;
 }
 
 footer a:active {
@@ -410,7 +412,11 @@ footer a:active {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 810px) {
+  header {
+    padding-top: 30px;
+  }
+
   .menu-mobile {
     display: inline;
   }
@@ -418,9 +424,13 @@ footer a:active {
   .menu-desctop {
     display: none;
   }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {  
   section, header {
     padding-bottom: 80px;
   }

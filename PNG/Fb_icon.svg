@@ -1,4 +1,4 @@
-<svg id="Flag_icon" data-name="Flag icon" xmlns="http://www.w3.org/2000/svg" width="119.281" height="124" viewBox="0 0 119.281 124">
+<svg id="Fb_icon" data-name="Fb icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -30,28 +30,15 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #d84848;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4 {
-        fill-rule: evenodd;
+        fill: #bdd1df;
       }
 
       .cls-2 {
-        fill: #aa1f1f;
-      }
-
-      .cls-3 {
-        fill: #f57b71;
-      }
-
-      .cls-4 {
-        fill: #daeaf2;
+        fill: #fff;
+        fill-rule: evenodd;
       }
     </style>
   </defs>
-  <path id="Shape" class="cls-1" d="M366,934H302v66h64l-20.156-33Z" transform="translate(-246.719 -920)"/>
-  <path class="cls-2" d="M302,986.749V1000l17-11Z" transform="translate(-246.719 -920)"/>
-  <path id="Shape-2" data-name="Shape" class="cls-3" d="M319,989H271l-18.344-64H319v64Z" transform="translate(-246.719 -920)"/>
-  <path class="cls-4" d="M250.435,920.18a5,5,0,0,1,6.124,3.536L287.1,1037.7a5,5,0,1,1-9.659,2.58L246.9,926.3A5,5,0,0,1,250.435,920.18Z" transform="translate(-246.719 -920)"/>
+  <circle id="base" class="cls-1" cx="16" cy="16" r="16"/>
+  <path id="Facebook_Icon" data-name="Facebook Icon" class="cls-2" d="M237.979,2106.94h-1.651a3.031,3.031,0,0,0-3.313,3.24v1.81h-2l0.006,2.01h1.993l-0.03,8.01h3.03v-7.98l1.738-.03,0.624-2.01h-2.394v-2.06a0.927,0.927,0,0,1,1.049-.92h0.938Z" transform="translate(-219 -2098)"/>
 </svg>
