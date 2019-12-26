@@ -149,6 +149,17 @@ section nav div {
   margin: 15px 15px 0 15px;
 }
 
+.bar {
+  display: none;
+  background-color: #643a79;
+  margin-top: 5px;
+  padding: 20px;
+}
+.bar a {
+  display: block;
+  text-align: center;
+}
+
 .s1 {
   background-color: #17c2a4;
 }
@@ -450,3 +461,4 @@ footer a:active {
     width: 100%;
   }
 }
+
